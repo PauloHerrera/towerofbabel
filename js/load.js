@@ -9,7 +9,9 @@ var loadState = {
         game.load.setPreloadSprite(progressBar);
                 
 
-        game.load.spritesheet('personagem', 'assets/images/personagem.png', 32, 48);
+        //game.load.spritesheet('personagem', 'assets/images/personagem.png', 32, 48);
+        //game.load.spritesheet('personagem', 'assets/images/personagem2.png', 24, 32);
+        game.load.spritesheet('personagem', 'assets/images/personagem3.png', 36, 48);
         game.load.image('pixel', 'assets/images/pixel.png');
         game.load.image('health', 'assets/images/health.png');
 
